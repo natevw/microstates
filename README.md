@@ -1,10 +1,10 @@
 # Microstates
 
-[forward-looking statements follow]
+*forward-looking statements follow*
 
 It should be possible to deploy a new Thing to the Internet Of™ with a $10 bill-of-materials for a "bare server" and less than an hour of REST code customization.
 
-Microstates lets tiny hardware play in the world of Raspberry Pi, letting each  wireless device act as an independent web server using [CoAP](http://tools.ietf.org/html/draft-ietf-core-coap-18) over a reasonably secure tiny data (<32 byte packets) transport layer.
+Microstates lets tiny hardware play in the world of Raspberry Pi, letting each  wireless device act as an independent web server over a reasonably secure radio network.
 
 ## Hardware platform
 
@@ -13,6 +13,8 @@ Protype with Arduino, deploy using bare AVR chips and nRF24L01+ chips. Keep this
 Assume a "base station" will serve as the gateway to the Internet. Keep chipside code short and sweet.
 
 ## Software platform
+
+[CoAP](http://tools.ietf.org/html/draft-ietf-core-coap-18) atop a custom multicast-oriented data transport layer secured by [XXTEA](http://en.wikipedia.org/wiki/XXTEA), keeping <32 byte packets.
 
 Arduino — a simple CoAP engine targetting communication over <https://github.com/gcopeland/RF24>
 

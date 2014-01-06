@@ -18,7 +18,7 @@ Assume a "base station" will serve as the gateway to the Internet. Keep chipside
 
 Arduino — a simple CoAP engine targetting communication over <https://github.com/gcopeland/RF24>
 
-RasPi — start by wrapping <https://github.com/stanleyseow/RF24> in node.js module, write a CoAP transport for <https://github.com/natevw/fermata>
+RasPi — finish up <https://github.com/natevw/node-nrf> loose ends, write a CoAP transport for <https://github.com/natevw/fermata>
 
 ## Use cases
 
